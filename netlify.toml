@@ -1,0 +1,11 @@
+[build]
+  # Command to build your app
+  command = "npm run build"
+  # Directory to deploy (Vite output)
+  publish = "dist"
+
+# Optional: redirect all routes to index.html (for SPA routing)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
